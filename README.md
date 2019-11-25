@@ -1,6 +1,7 @@
 # luanldt-idea
 Docker file idea
 
+```shell
 docker run --rm \
   -e DISPLAY=${DISPLAY} \
   -v ~/.Idea:/home/dev/.Idea \
@@ -11,3 +12,4 @@ docker run --rm \
   -v ~/Project:/home/dev/Project \
   --name idea-docker \
 luanldt/idea:1.0
+```
